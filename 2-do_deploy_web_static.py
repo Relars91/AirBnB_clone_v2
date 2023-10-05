@@ -6,9 +6,9 @@ from datetime import datetime
 from os import path
 
 
-env.hosts = ['18.235.233.101', '54.160.82.163']
+env.hosts = ['100.26.161.242', '100.25.167.170']
 env.user = 'ubuntu'
-env.key_filename = '~/.ssh/id_rsa'
+env.key_filename = '~/.ssh/school'
 
 
 def do_deploy(archive_path):
@@ -53,4 +53,4 @@ web_static_{}/ /data/web_static/current'.format(timestamp))
                 return False
 
         # return True on success
-        return True
+        return Truei
